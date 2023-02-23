@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Photos Part</title>
+    <style>
+        #title {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        #photos-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .photo {
+            border: 2px solid black;
+            background-color: lightgoldenrodyellow;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">All photos </h1>
+    </header>
+    <main>
+        <section>
+            <div id="photos-container">
+
+            </div>
+        </section>
+    </main>
+
+    <!-- javascript -->
+    <script src="js/photos.js"></script>
+</body>
+
+</html>
